@@ -1,13 +1,3 @@
-/*Program : Simple Linked List Operations using Class
-Operations:
-1. Create List
-2. Insert Node
-3. Delete Node
-4. Display List
-5. Exit
-===========================================================
-*/
-
 #include <iostream>
 using namespace std;
 
@@ -20,9 +10,7 @@ struct Node
     Node *next;     // Pointer to next node
 };
 
-//----------------------------
-// Step 2 : Create LinkedList Class
-//----------------------------
+
 class LinkedList
 {
 private:
@@ -36,9 +24,7 @@ public:
         head = NULL;
     }
 
-    //----------------------------
-    // Create Initial List
-    //----------------------------
+    
     void createList()
     {
         int n, value;
