@@ -1,14 +1,3 @@
-/*
-===========================================================
-Program : Queue Implementation using Class and Object
-Operations:
-1. Enqueue
-2. Dequeue
-3. Display
-4. Peek
-5. Exit
-===========================================================
-*/
 
 #include <iostream>
 using namespace std;
